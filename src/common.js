@@ -2,8 +2,7 @@ export default {
   sidebarMenu: [
     {accountType: 'ALL', accountStatus: 'ALL', description: 'Dashboard', icon: 'fa fa-tachometer', path: 'dashboard', flag: false, subMenu: null}
   ],
-  profileMenu: [
-  {
+  profileMenu: [{
     title: 'My Profile',
     icon: 'fa fa-cog',
     route: '/profile'
@@ -15,9 +14,9 @@ export default {
   APP_NAME: 'ARKILA',
   APP_NAME_HTML: 'ARK<b>ILA</b>',
   APP_EMAIL: 'support@arkila.ph',
-  COMPANY: 'Increment Technologies',
-  COMPANY_URL: 'www.increment.ltd',
-  COPYRIGHT: 'PAYHIRAM 2019',
+  COMPANY: 'Arkila Technologies',
+  COMPANY_URL: 'www.arkita.com',
+  COPYRIGHT: 'ARKILA 2019',
   USER_TYPE: [{
     title: 'USER'
   }, {
@@ -44,28 +43,9 @@ export default {
   socialMedia: {
     facebook: 'arkila'
   },
-  payments: [{
-    title: 'BDO',
-    logo: require('src/assets/img/bdo.png')
-  }, {
-    title: 'UnionBank of the Philippines',
-    logo: require('src/assets/img/unionbank.png')
-  }, {
-    title: 'Chinabank Corporation',
-    logo: require('src/assets/img/unionbank.png')
-  }, {
-    title: 'Cebuana Lhuillier',
-    logo: require('src/assets/img/cebuanalhuillier.png')
-  }, {
-    title: 'MLhuillier',
-    logo: require('src/assets/img/mlhuillier.png')
-  }, {
-    title: 'GCash',
-    logo: require('src/assets/img/gcash.png')
-  }],
   MINIMUM_WITHDRAWAL: 1000,
   pusher: {
-    channel: 'payhiram',
+    channel: 'arkila',
     notifications: 'Notifications',
     messages: 'Message',
     validation: 'Validation'
