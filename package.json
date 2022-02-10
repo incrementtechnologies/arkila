@@ -27,7 +27,7 @@
     "howler": "^2.0.12",
     "jquery": "^3.4.1",
     "laravel-echo": "^1.6.1",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "popper.js": "^1.14.3",
     "pusher-js": "^4.4.0",
     "react-player": "^1.6.4",
